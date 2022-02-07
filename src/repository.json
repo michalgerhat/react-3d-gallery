@@ -151,5 +151,107 @@
                 "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/RDxcO0yI7Kg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
             }
         ]
+    },
+    {
+        "title": "Litophane Moon",
+        "author": "Frank Deschner",
+        "description": "This is a remix. This is a cool lamp. Maybe a gift.\nThis is easy to print. This is an eye catcher.\nThis takes 2 days to print. This is a #3dp design.",
+        "files": [
+            {
+                "type": "img",
+                "path": "4/img1.jpg"
+            },
+            {
+                "type": "img",
+                "path": "4/img2.jpg"
+            },
+            {
+                "type": "img",
+                "path": "4/img3.jpg"
+            },
+            {
+                "type": "stl",
+                "name": "Moon_Globe.stl",
+                "path": "4/Moon_Globe.stl"
+            },
+            {
+                "type": "youtube",
+                "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/q0ndWCWwUV8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+            }
+        ]
+    },
+    {
+        "title": "Designer Ukulele",
+        "author": "Michal Gerhát",
+        "description": "Remix of the 3D-printed ukulele to be printed on smaller printers lying down for extra durability.\nHas some stylish graphics on the front and back.",
+        "files": [
+            {
+                "type": "img",
+                "path": "5/img1.jpg"
+            },
+            {
+                "type": "img",
+                "path": "5/img2.jpg"
+            },
+            {
+                "type": "video",
+                "path": "5/ukulele.mp4"
+            },
+            {
+                "type": "stl",
+                "name": "front_top.stl",
+                "path": "5/front_top.stl"
+            },
+            {
+                "type": "stl",
+                "name": "front_bottom.stl",
+                "path": "5/front_bottom.stl"
+            },
+            {
+                "type": "stl",
+                "name": "mid_top.stl",
+                "path": "5/mid_top.stl"
+            },
+            {
+                "type": "stl",
+                "name": "mid_bottom.stl",
+                "path": "5/mid_bottom.stl"
+            },
+            {
+                "type": "stl",
+                "name": "back_top.stl",
+                "path": "5/back_top.stl"
+            },
+            {
+                "type": "stl",
+                "name": "back_bottom.stl",
+                "path": "5/back_bottom.stl"
+            },
+            {
+                "type": "stl",
+                "name": "neck.stl",
+                "path": "5/neck.stl"
+            },
+            {
+                "type": "stl",
+                "name": "fretboard.stl",
+                "path": "5/fretboard.stl"
+            },
+            {
+                "type": "stl",
+                "name": "head.stl",
+                "path": "5/head.stl"
+            },
+            {
+                "type": "stl",
+                "name": "string_attachment_top.stl",
+                "path": "5/string_attachment_top.stl"
+            },
+            {
+                "type": "stl",
+                "name": "string_attachment_bottom.stl",
+                "path": "5/string_attachment_bottom.stl"
+            }
+        ]
     }
 ]

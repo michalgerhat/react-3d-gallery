@@ -9,6 +9,14 @@ function Item({file}) {
                     <img src={file.path} alt=""/>
                 </div>
             );
+        case "video":
+            return (
+                <div key={file.path} style={{backgroundColor: "black", paddingBottom: 20}}>
+                    <video width={740} height={480} controls>
+                        <source src={file.path} type="video/mp4" />
+                    </video>
+                </div>
+            );
         case "stl": 
             return (
                 <div key={file.path}>
