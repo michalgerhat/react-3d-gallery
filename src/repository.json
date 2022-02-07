@@ -1,0 +1,155 @@
+[
+    {
+        "title": "3D Printer Enclosure",
+        "author": "Dominik Císař",
+        "description": "Follow the Mikolas Zuza's tutorial article on:\nhttps://www.prusaprinters.org/cheap-simple-3d-printer-enclosure/\nPlexiglass dimensions:\n3pcs: 440 x 440 mm, thickness 3mm\n2pcs: 220 x 440 mm, thickness 3mm",
+        "files": [
+            {
+                "type": "img",
+                "path": "1/img1.jpg"
+            },
+            {
+                "type": "img",
+                "path": "1/img2.jpg"
+            },
+            {
+                "type": "stl",
+                "name": "prusa_enclosure_top-corners.stl",
+                "path": "1/prusa_enclosure_top-corners.stl"
+            },
+            {
+                "type": "stl",
+                "name": "prusa_enclosure_bottom-corners-female.stl",
+                "path": "1/prusa_enclosure_bottom-corners-female.stl"
+            },
+            {
+                "type": "stl",
+                "name": "prusa_enclosure_bottom-corners-male.stl",
+                "path": "1/prusa_enclosure_bottom-corners-male.stl"
+            },
+            {
+                "type": "stl",
+                "name": "prusa_enclosure_hinges.stl",
+                "path": "1/prusa_enclosure_hinges.stl"
+            },
+            {
+                "type": "stl",
+                "name": "prusa_enclosure_door-knob.stl",
+                "path": "1/prusa_enclosure_door-knob.stl"
+            },
+            {
+                "type": "youtube",
+                "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/oS7ZtBNh2hE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+            }
+        ]
+    },
+    {
+        "title": "ORBION Space Mouse for CAD",
+        "author": "FaqT0tum",
+        "description": "Follow instructions at:\nhttps://github.com/FaqT0tum/Orbion_Space_Mouse",
+        "files": [
+            {
+                "type": "img",
+                "path": "2/img1.png"
+            },
+            {
+                "type": "img",
+                "path": "2/img2.jpg"
+            },
+            {
+                "type": "img",
+                "path": "2/img3.jpg"
+            },
+            {
+                "type": "img",
+                "path": "2/img4.jpg"
+            },
+            {
+                "type": "stl",
+                "name": "Base.stl",
+                "path": "2/Base.stl"
+            },
+            {
+                "type": "stl",
+                "name": "Body.stl",
+                "path": "2/Body.stl"
+            },
+            {
+                "type": "stl",
+                "name": "Sceen_cover.stl",
+                "path": "2/Sceen_cover.stl"
+            },
+            {
+                "type": "stl",
+                "name": "Support_micro_joystick.stl",
+                "path": "2/Support_micro_joystick.stl"
+            },
+            {
+                "type": "stl",
+                "name": "Knob_Base.stl",
+                "path": "2/Knob_Base.stl"
+            },
+            {
+                "type": "stl",
+                "name": "Encoder_holder.stl",
+                "path": "2/Encoder_holder.stl"
+            },
+            {
+                "type": "stl",
+                "name": "Knob.stl",
+                "path": "2/Knob.stl"
+            },
+            {
+                "type": "youtube",
+                "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NqHIdklkzfw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+            }
+        ]
+    },
+    {
+        "title": "Marshall Major II Mounts for Oculus Rift S",
+        "author": "Michal Gerhát",
+        "description": "Adaptors allowing to attach the Marshall Major II headphones to the Oculus Rift S headband. Seemed like a good idea since the Bluetooth in my headphones broke and the base audio of the Rift is so bad.",
+        "files": [
+            {
+                "type": "img",
+                "path": "3/img1.jpg"
+            },
+            {
+                "type": "img",
+                "path": "3/img2.jpg"
+            },
+            {
+                "type": "img",
+                "path": "3/img3.jpg"
+            },
+            {
+                "type": "img",
+                "path": "3/img4.jpg"
+            },
+            {
+                "type": "stl",
+                "name": "Marshall_outer.stl",
+                "path": "3/Marshall_outer.stl"
+            },
+            {
+                "type": "stl",
+                "name": "Marshall_outer_hook.stl",
+                "path": "3/Marshall_outer_hook.stl"
+            },
+            {
+                "type": "stl",
+                "name": "Marshall_inner_left.stl",
+                "path": "3/Marshall_inner_left.stl"
+            },
+            {
+                "type": "stl",
+                "name": "Marshall_inner_right.stl",
+                "path": "3/Marshall_inner_right.stl"
+            },
+            {
+                "type": "youtube",
+                "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/RDxcO0yI7Kg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+            }
+        ]
+    }
+]

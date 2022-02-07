@@ -1,19 +1,40 @@
-import {Carousel} from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import STLViewer from 'stl-viewer';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Paper from '@mui/material/Paper';
+import { makeStyles } from '@mui/styles';
 import './App.css';
+import Header from './components/Header';
+import DownloadSection from './components/DownloadSection';
+import Description from './components/Description';
+import Gallery from './components/Gallery';
+import repository from "./repository.json";
+
+const useStyles = makeStyles({
+      root: {
+          margin: 'auto',
+          marginTop: 20,
+          marginBottom: 20,
+          minWidth: 480,
+          maxWidth: 800
+      }
+  });
 
 function App() {
+  const classes = useStyles();
+
   return (
     <div className="App">
-      <Carousel showThumbs={false} showIndicators={false}>
-        <div key="slide1">
-          <STLViewer model="obj/prusa_enclosure_top-corners.stl"	modelColor='#425af5' lights={[1, 1, 1]} rotationSpeeds={[0, 0.01, 0]}/>
-        </div>
-        <div key="slide2">
-          <STLViewer model="obj/extrusion-clip_90.stl"	modelColor='#425af5' lights={[1, 1, 1]} rotationSpeeds={[0, 0.01, 0]}/>
-        </div>
-      </Carousel>
+        <Header title={"3DRepo"} />
+        { repository.map(model => (
+            <Paper className={classes.root} elevation={3} key={model.title}>
+                <Gallery files={model.files} />
+                <Description
+                    title={model.title}
+                    author={model.author}
+                    description={model.description}
+                />
+                <DownloadSection files={model.files} />
+            </Paper>
+        ))}
     </div>
   );
 }
