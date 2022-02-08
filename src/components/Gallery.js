@@ -1,7 +1,8 @@
+import {useState} from "react";
 import {Carousel} from 'react-responsive-carousel';
 import ModelViewer from './ModelViewer';
 
-function Item({file}) {
+function Item({file, selected}) {
     switch(file.type) {
         case "img":
             return (
@@ -20,7 +21,7 @@ function Item({file}) {
         case "stl": 
             return (
                 <div key={file.path}>
-                    <ModelViewer name={file.name} path={file.path} />
+                    {selected && <ModelViewer name={file.name} path={file.path} />}
                 </div>
             );
         case "youtube":
@@ -35,10 +36,17 @@ function Item({file}) {
 }
 
 export default function Gallery({files}) {
+    const [selectedItem, setSelectedItem] = useState(0);
+
     return (
-        <Carousel showThumbs={false} showStatus={false} dynamicHeight>
-            { files.map(file => (
-                <Item file={file} key={JSON.stringify(file)}/>
+        <Carousel
+            showThumbs={false}
+            showStatus={false}
+            dynamicHeight
+            onChange={index => setSelectedItem(index)}
+        >
+            { files.map((file, index) => (
+                <Item file={file} selected={index === selectedItem} key={JSON.stringify(file)}/>
             ))}
         </Carousel>
     );
